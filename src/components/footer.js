@@ -6,7 +6,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 function Copyright() {
     return (
-      <Typography variant="body2" color="text.secondary" sx={{ minWidth: '200px', paddingLeft: '20px'}}>
+      <Typography variant="body2" color="text.secondary" sx={{ minWidth: '200px', paddingLeft: '20px' }}>
         {'Copyright © '}
         <Link color="inherit" href="">
           Kelly Peng

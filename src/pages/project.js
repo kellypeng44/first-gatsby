@@ -4,12 +4,12 @@ import * as React from "react";
 import Layout from "../components/layout";
 
 // markup
-const IndexPage = () => {
+const ProjectPage = () => {
   return (
     <Layout>
-      home page
+      project page
     </Layout>
   )
 }
 
-export default IndexPage;
+export default ProjectPage;
