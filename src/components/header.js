@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import { CssBaseline, Box, Typography, Container, IconButton, Grid } from '@mui/material';
+import { Typography, Grid } from '@mui/material';
 
 export default function Header() {
     return(
@@ -8,6 +8,7 @@ export default function Header() {
             <Grid item>
                 <Typography sx={{ fontFamily: 'Karla', fontSize: '40px' }}>KELLY PENG</Typography>
             </Grid>
+            {/* TODO: change the spacing and color of the links */}
             <Grid item container alignItems='center' justifyContent='center' direction='row' spacing={2} sx={{ paddingTop: '20px' }}>
                 <Grid item>
                     <Link to="/project/" style={{ textDecoration: 'none' }}>Project</Link>

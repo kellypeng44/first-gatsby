@@ -8,6 +8,7 @@ const ProjectPage = () => {
   return (
     <Layout>
       project page
+      {/* use map to map project and links to card component */}
     </Layout>
   )
 }
