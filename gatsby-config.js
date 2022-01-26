@@ -1,7 +1,8 @@
 module.exports = {
+  pathPrefix: '/kellypeng',
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "first gatsby",
+    siteUrl: "https://kellypeng44.github.io/kellypeng/",
+    title: "Kelly Peng",
   },
   plugins: [
     `gatsby-plugin-styled-components`,
