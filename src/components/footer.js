@@ -20,7 +20,7 @@ function Copyright() {
 function Sites() {
     return (
         <Container>
-            <IconButton aria-label='linkedin' href='www.linkedin.com/in/mingyu-kelly-peng'>
+            <IconButton aria-label='linkedin' href='https://www.linkedin.com/in/mingyu-kelly-peng/'>
                 <LinkedInIcon />
             </IconButton>
             <IconButton aria-label='email' href='mailto: mingyukelly.peng@gmail.com'>
