@@ -5,16 +5,36 @@ import { Typography, Grid } from '@mui/material';
 export default function Header() {
     return(
         <Grid container direction='column' alignItems='center' sx={{ padding: '50px' }}>
+            {/* onClick: homepage */}
             <Grid item>
-                <Typography sx={{ fontFamily: 'Karla', fontSize: '40px' }}>KELLY PENG</Typography>
+                <Link to="/" style={{ textDecoration: 'none' }}>
+                    <Typography sx={{ fontFamily: 'Karla', fontSize: '48px', color: 'black' }}>
+                        KELLY PENG
+                    </Typography>
+                </Link>
             </Grid>
             {/* TODO: change the spacing and color of the links */}
-            <Grid item container alignItems='center' justifyContent='center' direction='row' spacing={2} sx={{ paddingTop: '20px' }}>
+            <Grid item container alignItems='center' justifyContent='center' direction='row' spacing={5} sx={{ paddingTop: '20px' }}>
                 <Grid item>
-                    <Link to="/project/" style={{ textDecoration: 'none' }}>Project</Link>
+                    <Link to="/project/" style={{ textDecoration: 'none' }}>
+                        <Typography sx={{ color: '#A3A3A3', fontFamily: 'Work Sans', fontSize: '20px', fontWeight: '600' }}>
+                            Project
+                        </Typography>
+                    </Link>
                 </Grid>
                 <Grid item>
-                    <Link to="/contact/" style={{ textDecoration: 'none' }}>Contact</Link>
+                    <Link to="/art/" style={{ textDecoration: 'none' }}>
+                        <Typography sx={{ color: '#A3A3A3', fontFamily: 'Work Sans', fontSize: '20px', fontWeight: '600' }}>
+                            Art
+                        </Typography>
+                    </Link>
+                </Grid>
+                <Grid item>
+                    <Link to="/contact/" style={{ textDecoration: 'none' }}>
+                        <Typography sx={{ color: '#A3A3A3', fontFamily: 'Work Sans', fontSize: '20px', fontWeight: '600' }}>
+                            Contact
+                        </Typography>
+                    </Link>
                 </Grid>
                 {/* blog page */}
             </Grid>

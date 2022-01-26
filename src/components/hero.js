@@ -8,11 +8,6 @@ const useStyles = makeStyles({
         heigh: '70vh',
         outline: 'none',
     },
-    text: {
-        fontFamily: 'Karla',
-        fontSize: '25px',
-        // textAlign: 'center',
-    },
     content: {
         paddingLeft: '40px',
         paddingRight: '40px', 
@@ -29,7 +24,7 @@ export default function Hero() {
                         <img src={Mask} alt="Mask on"></img>
                     </Grid>
                     <Grid item maxWidth='sm'>
-                        <Typography className={classes.text}>
+                        <Typography sx={{ fontFamily: 'Karla', fontSize: '23px' }}>
                             Hello, this is Kelly and she is graduating from Stony Brook University in May 2022 with a bachelor degree in Computer Science.
                             <br />
                             <br />
