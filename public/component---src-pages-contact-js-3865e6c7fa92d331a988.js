@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfirst_gatsby=self.webpackChunkfirst_gatsby||[]).push([[501],{262:function(e,t,n){n.r(t);var a=n(7294),s=n(6810);t.default=function(){return a.createElement(s.Z,{pageTitle:"Kelly Peng | Contact"})}}}]);
+//# sourceMappingURL=component---src-pages-contact-js-3865e6c7fa92d331a988.js.map

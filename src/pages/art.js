@@ -7,7 +7,7 @@ import Layout from "../components/layout";
 // markup
 const ArtPage = () => {
   return (
-    <Layout pageTitle="Artwork">
+    <Layout pageTitle="Kelly Peng | Artwork">
       {/* use map to map project and links to card component */}
       <Grid container justifyContent='center' sx={{ paddingLeft: '20px', paddingRight: '20px' }}>
         <ImageList sx={{ width: 800 }} cols={2} rowHeight='auto' gap={20}>

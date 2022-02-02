@@ -24,7 +24,7 @@ function TagsContainer({ tags }) {
 
 const ProjectPage = () => {
   return (
-    <Layout pageTitle="Projects">
+    <Layout pageTitle="Kelly Peng | Projects">
       {/* use map to map project and links to card component */}
       <Grid container justifyContent='center' sx={{ paddingLeft: '20px', paddingRight: '20px' }}>
         <ImageList sx={{ width: 800, height: 450 }} cols={3} rowHeight='200' gap={20} variant='standard'>

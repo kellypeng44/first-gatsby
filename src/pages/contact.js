@@ -6,7 +6,7 @@ import Layout from "../components/layout";
 // markup
 const ContactPage = () => {
   return (
-    <Layout pageTitle="Contact">
+    <Layout pageTitle="Kelly Peng | Contact">
     </Layout>
   );
 };
