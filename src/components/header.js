@@ -25,7 +25,7 @@ export default function Header() {
                 <Grid item>
                     <Link to="/art/" style={{ textDecoration: 'none' }}>
                         <Typography sx={{ color: '#A3A3A3', fontFamily: 'Work Sans', fontSize: '20px', fontWeight: '600' }}>
-                            Art
+                            Artwork
                         </Typography>
                     </Link>
                 </Grid>

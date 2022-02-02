@@ -64,7 +64,7 @@ const ProjectPage = () => {
       </Grid>
     </Layout>
   )
-}
+};
 
 const projectsData = [
   // {
