@@ -76,18 +76,20 @@ const projectsData = [
   // },
   {
     title: "Quizhub",
-    shortDes: "School Project",
-    description: "A MERN fullstack web application for users to create and take quizzes.",
+    shortDes: "2020 | School Project",
+    // description: "A MERN fullstack web application for users to create and take quizzes.",
     img: "https://res.cloudinary.com/quizhub/image/upload/v1639027329/i20ev3uzqhungzolrali.png",
     tags: ["MERN", "Web App", "SE"],
     link: "http://cse416-quizhub.herokuapp.com/",
   },
-  // {
-  //   title: "YoungOne",
-  //   description: "description",
-  //   img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
-  //   tags: [""],
-  // },
+  {
+    title: "Landlord Blink Game",
+    shortDes: "2022 | Game Jam Project",
+    // description: "description",
+    img: "https://res.cloudinary.com/dshjjlnbk/image/upload/v1643834417/projects/Blinks_Game_Label_Art-11_escx49.png",
+    tags: ["Blink", "C++", "Illustrator"],
+    link: "https://github.com/kellypeng44/CSE380_LandlordGame",
+  },
   // {
   //   title: "YoungOne",
   //   description: "description",
