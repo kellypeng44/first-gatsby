@@ -4,8 +4,8 @@ import { Typography, Grid } from '@mui/material';
 
 export default function Header() {
     return(
-        <Grid container direction='column' alignItems='center' sx={{ padding: '50px' }}>
-            {/* onClick: homepage */}
+        <Grid container direction='column' alignItems='center' sx={{ paddingTop: '50px', paddingLeft: '50px', paddingRight: '50px', paddingBottom: '30px' }}>
+            {/* TODO: change onHover color and mouse */}
             <Grid item>
                 <Link to="/" style={{ textDecoration: 'none' }}>
                     <Typography sx={{ fontFamily: 'Karla', fontSize: '48px', color: 'black' }}>
@@ -13,7 +13,7 @@ export default function Header() {
                     </Typography>
                 </Link>
             </Grid>
-            {/* TODO: change the spacing and color of the links */}
+            {/* TODO: change onClick and onHover color */}
             <Grid item container alignItems='center' justifyContent='center' direction='row' spacing={5} sx={{ paddingTop: '20px' }}>
                 <Grid item>
                     <Link to="/project/" style={{ textDecoration: 'none' }}>

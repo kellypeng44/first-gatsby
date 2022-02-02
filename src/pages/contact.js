@@ -6,10 +6,9 @@ import Layout from "../components/layout";
 // markup
 const ContactPage = () => {
   return (
-    <Layout>
-      contact page
+    <Layout pageTitle="Contact">
     </Layout>
-  )
-}
+  );
+};
 
 export default ContactPage;

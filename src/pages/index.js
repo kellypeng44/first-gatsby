@@ -7,7 +7,7 @@ import Hero from "../components/hero";
 // markup
 const IndexPage = () => {
   return (
-    <Layout>
+    <Layout pageTitle="Home">
       {/* Hero section */}
       <Hero />
     </Layout>

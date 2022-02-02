@@ -6,8 +6,7 @@ import Layout from "../components/layout";
 // markup
 const ArtPage = () => {
   return (
-    <Layout>
-      art gallery page
+    <Layout pageTitle="Art">
     </Layout>
   )
 }
