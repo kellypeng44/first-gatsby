@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfirst_gatsby=self.webpackChunkfirst_gatsby||[]).push([[746],{6825:function(e,t,s){s.r(t);var r=s(7294),a=s(6548);t.default=function(){return r.createElement(a.Z,{pageTitle:"Projects"})}}}]);
+//# sourceMappingURL=component---src-pages-project-js-30dbb5cb6cba2886a87e.js.map
