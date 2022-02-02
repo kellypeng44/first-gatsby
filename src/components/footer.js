@@ -20,13 +20,13 @@ function Copyright() {
 function Sites() {
     return (
         <Container>
-            <IconButton aria-label='linkedin' href='https://www.linkedin.com/in/mingyu-kelly-peng/'>
+            <IconButton aria-label='linkedin' href='https://www.linkedin.com/in/mingyu-kelly-peng/' target="_blank">
                 <LinkedInIcon />
             </IconButton>
-            <IconButton aria-label='email' href='mailto: mingyukelly.peng@gmail.com'>
+            <IconButton aria-label='email' href='mailto: mingyukelly.peng@gmail.com' target="_blank">
                 <EmailIcon />
             </IconButton>
-            <IconButton aria-label='github' href='https://github.com/kellypeng44'>
+            <IconButton aria-label='github' href='https://github.com/kellypeng44' target="_blank">
                 <GitHubIcon />
             </IconButton>
         </Container>
