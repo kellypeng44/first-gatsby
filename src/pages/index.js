@@ -9,7 +9,7 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Kelly Peng">
       {/* Hero section */}
-      <Hero />
+      <Hero id='aboutme'/>
     </Layout>
   )
 }

@@ -36,6 +36,13 @@ export default function Header() {
                         </Typography>
                     </Link>
                 </Grid>
+                <Grid item>
+                    <Link to="/#aboutme" style={{ textDecoration: 'none' }}>
+                        <Typography sx={{ color: '#A3A3A3', fontFamily: 'Work Sans', fontSize: '20px', fontWeight: '600' }}>
+                            About
+                        </Typography>
+                    </Link>
+                </Grid>
                 {/* blog page */}
             </Grid>
         </Grid>
