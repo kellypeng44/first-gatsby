@@ -8,7 +8,7 @@ import Layout from "../components/layout";
 function TagsContainer({ tags }) {
   return (
     <div>
-      {tags.map((tag) => ( tag.length == 0 ?
+      {tags.map((tag) => ( tag.length === 0 ?
         <></> :
         <Chip
           label={tag}
@@ -78,7 +78,7 @@ const projectsData = [
     title: "Quizhub",
     shortDes: "2021 | School Project",
     // description: "A MERN fullstack web application for users to create and take quizzes.",
-    img: "https://res.cloudinary.com/quizhub/image/upload/v1639027329/i20ev3uzqhungzolrali.png",
+    img: "https://res.cloudinary.com/dshjjlnbk/image/upload/v1644107941/projects/Quizhub_project_dchkcy.png",
     tags: ["MERN", "Web App", "SE", "team"],
     link: "http://cse416-quizhub.herokuapp.com/",
   },
